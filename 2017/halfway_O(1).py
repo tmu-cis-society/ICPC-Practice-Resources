@@ -1,5 +1,6 @@
 import math
-# Does not work for n=500
+
+# Some math stuff
 n = int(input("n: "))
-result = (n) * math.sqrt(2) / 2
+result = round(math.sqrt((n*(n-1))/2))
 print(round(n - result))
